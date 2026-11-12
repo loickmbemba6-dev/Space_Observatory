@@ -16,8 +16,10 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
-EXCEL_FILE = Path(__file__).resolve().parent / "supernovae_FINAL_v2_CORRIGE.xlsx"
+EXCEL_FILE = (
+    Path(__file__).resolve().parent
+    / "supernovae_FINAL_v2_CORRIGE.xlsx"
+)
 # =========================================================
 # TRADUCTIONS DE L'INTERFACE
 # Les données scientifiques ne sont jamais traduites.
